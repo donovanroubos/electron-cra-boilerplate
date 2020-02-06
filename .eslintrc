@@ -62,7 +62,7 @@
     "no-undef": 2,
     "new-cap": 2,
     "quotes": [
-      2,
+      1,
       "single"
     ],
     "no-trailing-spaces": 2,
