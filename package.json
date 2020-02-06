@@ -40,13 +40,13 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-        "prettier — single-quote — write",
-        "git add ."
+      "prettier — single-quote — write",
+      "git add ."
     ]
   },
   "eslintConfig": {
@@ -70,6 +70,7 @@
     "@testing-library/user-event": "^7.1.2",
     "concurrently": "^5.1.0",
     "electron-is-dev": "^1.1.0",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
