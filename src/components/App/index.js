@@ -6,11 +6,15 @@ import './app.scss'
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-        <img src={logo} className="app-logo" alt="logo" />
-      </header>
-    </div>
+    <>
+      <div className="header-arrow" />
+
+      <div className="app">
+        <header className="app-header">
+          <img src={logo} className="app-logo" alt="logo" />
+        </header>
+      </div>
+    </>
   )
 }
 
