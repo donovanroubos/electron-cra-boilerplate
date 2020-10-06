@@ -77,7 +77,7 @@
     "wait-on": "^4.0.0"
   },
   "devDependencies": {
-    "electron": "^8.0.0",
+    "electron": "^8.5.2",
     "electron-builder": "^22.3.2",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.10.0",
